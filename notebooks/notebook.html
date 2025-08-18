@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)file:///home/dmcabe/Downloads/notebook.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>.ͼ1.cm-focused {outline: 1px dotted #212121;}
+.ͼ1 {position: relative !important; box-sizing: border-box; display: flex !important; flex-direction: column;}
+.ͼ1 .cm-scroller {display: flex !important; align-items: flex-start !important; font-family: monospace; line-height: 1.4; height: 100%; overflow-x: auto; position: relative; z-index: 0; overflow-anchor: none;}
+.ͼ1 .cm-content[contenteditable=true] {-webkit-user-modify: read-write-plaintext-only;}
+.ͼ1 .cm-content {margin: 0; flex-grow: 2; flex-shrink: 0; display: block; white-space: pre; word-wrap: normal; box-sizing: border-box; min-height: 100%; padding: 4px 0; outline: none;}
+.ͼ1 .cm-lineWrapping {white-space: pre-wrap; white-space: break-spaces; word-break: break-word; overflow-wrap: anywhere; flex-shrink: 1;}
+.ͼ2 .cm-content {caret-color: black;}
+.ͼ3 .cm-content {caret-color: white;}
+.ͼ1 .cm-line {display: block; padding: 0 2px 0 6px;}
+.ͼ1 .cm-layer > * {position: absolute;}
+.ͼ1 .cm-layer {position: absolute; left: 0; top: 0; contain: size style;}
+.ͼ2 .cm-selectionBackground {background: #d9d9d9;}
+.ͼ3 .cm-selectionBackground {background: #222;}
+.ͼ2.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground {background: #d7d4f0;}
+.ͼ3.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground {background: #233;}
+.ͼ1 .cm-cursorLayer {pointer-events: none;}
+.ͼ1.cm-focused > .cm-scroller > .cm-cursorLayer {animation: steps(1) cm-blink 1.2s infinite;}
+@keyframes cm-blink {50% {opacity: 0;}}
+@keyframes cm-blink2 {50% {opacity: 0;}}
+.ͼ1 .cm-cursor, .ͼ1 .cm-dropCursor {border-left: 1.2px solid black; margin-left: -0.6px; pointer-events: none;}
+.ͼ1 .cm-cursor {display: none;}
+.ͼ3 .cm-cursor {border-left-color: #ddd;}
+.ͼ1 .cm-dropCursor {position: absolute;}
+.ͼ1.cm-focused > .cm-scroller > .cm-cursorLayer .cm-cursor {display: block;}
+.ͼ1 .cm-iso {unicode-bidi: isolate;}
+.ͼ1 .cm-announced {position: fixed; top: -10000px;}
+@media print {.ͼ1 .cm-announced {display: none;}}
+.ͼ2 .cm-activeLine {background-color: #cceeff44;}
+.ͼ3 .cm-activeLine {background-color: #99eeff33;}
+.ͼ2 .cm-specialChar {color: red;}
+.ͼ3 .cm-specialChar {color: #f78;}
+.ͼ1 .cm-gutters {flex-shrink: 0; display: flex; height: 100%; box-sizing: border-box; inset-inline-start: 0; z-index: 200;}
+.ͼ2 .cm-gutters {background-color: #f5f5f5; color: #6c6c6c; border-right: 1px solid #ddd;}
+.ͼ3 .cm-gutters {background-color: #333338; color: #ccc;}
+.ͼ1 .cm-gutter {display: flex !important; flex-direction: column; flex-shrink: 0; box-sizing: border-box; min-height: 100%; overflow: hidden;}
+.ͼ1 .cm-gutterElement {box-sizing: border-box;}
+.ͼ1 .cm-lineNumbers .cm-gutterElement {padding: 0 3px 0 5px; min-width: 20px; text-align: right; white-space: nowrap;}
+.ͼ2 .cm-activeLineGutter {background-color: #e2f2ff;}
+.ͼ3 .cm-activeLineGutter {background-color: #222227;}
+.ͼ1 .cm-panels {box-sizing: border-box; position: sticky; left: 0; right: 0; z-index: 300;}
+.ͼ2 .cm-panels {background-color: #f5f5f5; color: black;}
+.ͼ2 .cm-panels-top {border-bottom: 1px solid #ddd;}
+.ͼ2 .cm-panels-bottom {border-top: 1px solid #ddd;}
+.ͼ3 .cm-panels {background-color: #333338; color: white;}
+.ͼ1 .cm-tab {display: inline-block; overflow: hidden; vertical-align: bottom;}
+.ͼ1 .cm-widgetBuffer {vertical-align: text-top; height: 1em; width: 0; display: inline;}
+.ͼ1 .cm-placeholder {color: #888; display: inline-block; vertical-align: top;}
+.ͼ1 .cm-highlightSpace {background-image: radial-gradient(circle at 50% 55%, #aaa 20%, transparent 5%); background-position: center;}
+.ͼ1 .cm-highlightTab {background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="20"><path stroke="%23888" stroke-width="1" fill="none" d="M1 10H196L190 5M190 15L196 10M197 4L197 16"/></svg>'); background-size: auto 100%; background-position: right 90%; background-repeat: no-repeat;}
+.ͼ1 .cm-trailingSpace {background-color: #ff332255;}
+.ͼ1 .cm-button {vertical-align: middle; color: inherit; font-size: 70%; padding: .2em 1em; border-radius: 1px;}
+.ͼ2 .cm-button:active {background-image: linear-gradient(#b4b4b4, #d0d3d6);}
+.ͼ2 .cm-button {background-image: linear-gradient(#eff1f5, #d9d9df); border: 1px solid #888;}
+.ͼ3 .cm-button:active {background-image: linear-gradient(#111, #333);}
+.ͼ3 .cm-button {background-image: linear-gradient(#393939, #111); border: 1px solid #888;}
+.ͼ1 .cm-textfield {vertical-align: middle; color: inherit; font-size: 70%; border: 1px solid silver; padding: .2em .5em;}
+.ͼ2 .cm-textfield {background-color: white;}
+.ͼ3 .cm-textfield {border: 1px solid #555; background-color: inherit;}
+.ͼ1 .cm-diagnostic {padding: 3px 6px 3px 8px; margin-left: -1px; display: block; white-space: pre-wrap;}
+.ͼ1 .cm-diagnostic-error {border-left: 5px solid #d11;}
+.ͼ1 .cm-diagnostic-warning {border-left: 5px solid orange;}
+.ͼ1 .cm-diagnostic-info {border-left: 5px solid #999;}
+.ͼ1 .cm-diagnostic-hint {border-left: 5px solid #66d;}
+.ͼ1 .cm-diagnosticAction {font: inherit; border: none; padding: 2px 4px; background-color: #444; color: white; border-radius: 3px; margin-left: 8px; cursor: pointer;}
+.ͼ1 .cm-diagnosticSource {font-size: 70%; opacity: 0.7;}
+.ͼ1 .cm-lintRange {background-position: left bottom; background-repeat: repeat-x; padding-bottom: 0.7px;}
+.ͼ1 .cm-lintRange-error {background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="6" height="3">%3Cpath%20d%3D%22m0%202.5%20l2%20-1.5%20l1%200%20l2%201.5%20l1%200%22%20stroke%3D%22%23d11%22%20fill%3D%22none%22%20stroke-width%3D%22.7%22%2F%3E</svg>');}
+.ͼ1 .cm-lintRange-warning {background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="6" height="3">%3Cpath%20d%3D%22m0%202.5%20l2%20-1.5%20l1%200%20l2%201.5%20l1%200%22%20stroke%3D%22orange%22%20fill%3D%22none%22%20stroke-width%3D%22.7%22%2F%3E</svg>');}
+.ͼ1 .cm-lintRange-info {background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="6" height="3">%3Cpath%20d%3D%22m0%202.5%20l2%20-1.5%20l1%200%20l2%201.5%20l1%200%22%20stroke%3D%22%23999%22%20fill%3D%22none%22%20stroke-width%3D%22.7%22%2F%3E</svg>');}
+.ͼ1 .cm-lintRange-hint {background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="6" height="3">%3Cpath%20d%3D%22m0%202.5%20l2%20-1.5%20l1%200%20l2%201.5%20l1%200%22%20stroke%3D%22%2366d%22%20fill%3D%22none%22%20stroke-width%3D%22.7%22%2F%3E</svg>');}
+.ͼ1 .cm-lintRange-active {background-color: #ffdd9980;}
+.ͼ1 .cm-tooltip-lint {padding: 0; margin: 0;}
+.ͼ1 .cm-lintPoint:after {content: ""; position: absolute; bottom: 0; left: -2px; border-left: 3px solid transparent; border-right: 3px solid transparent; border-bottom: 4px solid #d11;}
+.ͼ1 .cm-lintPoint {position: relative;}
+.ͼ1 .cm-lintPoint-warning:after {border-bottom-color: orange;}
+.ͼ1 .cm-lintPoint-info:after {border-bottom-color: #999;}
+.ͼ1 .cm-lintPoint-hint:after {border-bottom-color: #66d;}
+.ͼ1 .cm-panel.cm-panel-lint ul [aria-selected] u {text-decoration: underline;}
+.ͼ1 .cm-panel.cm-panel-lint ul [aria-selected] {background-color: #ddd;}
+.ͼ1 .cm-panel.cm-panel-lint ul:focus [aria-selected] {background: #bdf; background-color: Highlight; color: white; color: HighlightText;}
+.ͼ1 .cm-panel.cm-panel-lint ul u {text-decoration: none;}
+.ͼ1 .cm-panel.cm-panel-lint ul {max-height: 100px; overflow-y: auto; padding: 0; margin: 0;}
+.ͼ1 .cm-panel.cm-panel-lint [name=close] {position: absolute; top: 0; right: 2px; background: inherit; border: none; font: inherit; padding: 0; margin: 0;}
+.ͼ1 .cm-panel.cm-panel-lint {position: relative;}
+.ͼ1 .cm-tooltip.cm-tooltip-autocomplete > ul > li, .ͼ1 .cm-tooltip.cm-tooltip-autocomplete > ul > completion-section {padding: 1px 3px; line-height: 1.2;}
+.ͼ1 .cm-tooltip.cm-tooltip-autocomplete > ul > li {overflow-x: hidden; text-overflow: ellipsis; cursor: pointer;}
+.ͼ1 .cm-tooltip.cm-tooltip-autocomplete > ul > completion-section {display: list-item; border-bottom: 1px solid silver; padding-left: 0.5em; opacity: 0.7;}
+.ͼ1 .cm-tooltip.cm-tooltip-autocomplete > ul {font-family: monospace; white-space: nowrap; overflow: hidden auto; max-width: 700px; max-width: min(700px, 95vw); min-width: 250px; max-height: 10em; height: 100%; list-style: none; margin: 0; padding: 0;}
+.ͼ2 .cm-tooltip-autocomplete ul li[aria-selected] {background: #17c; color: white;}
+.ͼ2 .cm-tooltip-autocomplete-disabled ul li[aria-selected] {background: #777;}
+.ͼ3 .cm-tooltip-autocomplete ul li[aria-selected] {background: #347; color: white;}
+.ͼ3 .cm-tooltip-autocomplete-disabled ul li[aria-selected] {background: #444;}
+.ͼ1 .cm-completionListIncompleteTop:before, .ͼ1 .cm-completionListIncompleteBottom:after {content: "···"; opacity: 0.5; display: block; text-align: center;}
+.ͼ1 .cm-tooltip.cm-completionInfo {position: absolute; padding: 3px 9px; width: max-content; max-width: 400px; box-sizing: border-box; white-space: pre-line;}
+.ͼ1 .cm-completionInfo.cm-completionInfo-left {right: 100%;}
+.ͼ1 .cm-completionInfo.cm-completionInfo-right {left: 100%;}
+.ͼ1 .cm-completionInfo.cm-completionInfo-left-narrow {right: 30px;}
+.ͼ1 .cm-completionInfo.cm-completionInfo-right-narrow {left: 30px;}
+.ͼ2 .cm-snippetField {background-color: #00000022;}
+.ͼ3 .cm-snippetField {background-color: #ffffff22;}
+.ͼ1 .cm-snippetFieldPosition {vertical-align: text-top; width: 0; height: 1.15em; display: inline-block; margin: 0 -0.7px -.7em; border-left: 1.4px dotted #888;}
+.ͼ1 .cm-completionMatchedText {text-decoration: underline;}
+.ͼ1 .cm-completionDetail {margin-left: 0.5em; font-style: italic;}
+.ͼ1 .cm-completionIcon {font-size: 90%; width: .8em; display: inline-block; text-align: center; padding-right: .6em; opacity: 0.6; box-sizing: content-box;}
+.ͼ1 .cm-completionIcon-function:after, .ͼ1 .cm-completionIcon-method:after {content: 'ƒ';}
+.ͼ1 .cm-completionIcon-class:after {content: '○';}
+.ͼ1 .cm-completionIcon-interface:after {content: '◌';}
+.ͼ1 .cm-completionIcon-variable:after {content: '𝑥';}
+.ͼ1 .cm-completionIcon-constant:after {content: '𝐶';}
+.ͼ1 .cm-completionIcon-type:after {content: '𝑡';}
+.ͼ1 .cm-completionIcon-enum:after {content: '∪';}
+.ͼ1 .cm-completionIcon-property:after {content: '□';}
+.ͼ1 .cm-completionIcon-keyword:after {content: '🔑︎';}
+.ͼ1 .cm-completionIcon-namespace:after {content: '▢';}
+.ͼ1 .cm-completionIcon-text:after {content: 'abc'; font-size: 50%; vertical-align: middle;}
+.ͼ1 .cm-tooltip {z-index: 500; box-sizing: border-box;}
+.ͼ2 .cm-tooltip {border: 1px solid #bbb; background-color: #f5f5f5;}
+.ͼ2 .cm-tooltip-section:not(:first-child) {border-top: 1px solid #bbb;}
+.ͼ3 .cm-tooltip {background-color: #333338; color: white;}
+.ͼ1 .cm-tooltip-arrow:before, .ͼ1 .cm-tooltip-arrow:after {content: ''; position: absolute; width: 0; height: 0; border-left: 7px solid transparent; border-right: 7px solid transparent;}
+.ͼ1 .cm-tooltip-above .cm-tooltip-arrow:before {border-top: 7px solid #bbb;}
+.ͼ1 .cm-tooltip-above .cm-tooltip-arrow:after {border-top: 7px solid #f5f5f5; bottom: 1px;}
+.ͼ1 .cm-tooltip-above .cm-tooltip-arrow {bottom: -7px;}
+.ͼ1 .cm-tooltip-below .cm-tooltip-arrow:before {border-bottom: 7px solid #bbb;}
+.ͼ1 .cm-tooltip-below .cm-tooltip-arrow:after {border-bottom: 7px solid #f5f5f5; top: 1px;}
+.ͼ1 .cm-tooltip-below .cm-tooltip-arrow {top: -7px;}
+.ͼ1 .cm-tooltip-arrow {height: 7px; width: 14px; position: absolute; z-index: -1; overflow: hidden;}
+.ͼ3 .cm-tooltip .cm-tooltip-arrow:before {border-top-color: #333338; border-bottom-color: #333338;}
+.ͼ3 .cm-tooltip .cm-tooltip-arrow:after {border-top-color: transparent; border-bottom-color: transparent;}
+.ͼ1 .cm-matchingBracket {background-color: #328c8252;}
+.ͼ1 .cm-nonmatchingBracket {background-color: #bb555544;}
+.ͼ1 .cm-selectionMatch {background-color: #99ff7780;}
+.ͼ1 .cm-searchMatch .cm-selectionMatch {background-color: transparent;}
+.ͼ20 {color: var(--cm-color-css);}
+.ͼ21 {color: var(--cm-color-comment); font-style: italic;}
+.ͼ22 {color: var(--cm-color-css-accent); font-weight: 700;}
+.ͼ23 {color: var(--cm-color-css-accent); font-weight: 700;}
+.ͼ24 {color: var(--cm-color-css); font-weight: 700;}
+.ͼ25 {color: var(--cm-color-css);}
+.ͼ26 {color: var(--cm-color-css);}
+.ͼ27 {color: var(--cm-color-css-accent);}
+.ͼ28 {color: var(--cm-color-css);}
+.ͼ29 {opacity: 0.5;}
+.ͼ1k {color: var(--cm-color-editor-text); filter: contrast(0.5);}
+.ͼ1l {color: var(--cm-color-comment); font-style: italic; filter: none;}
+.ͼ1m {color: var(--cm-color-variable); font-weight: 700;}
+.ͼ1n {color: var(--cm-color-symbol); font-weight: 700;}
+.ͼ1o {color: var(--cm-color-macro); font-weight: 700;}
+.ͼ1p {filter: var(--cm-filter-type); font-weight: lighter;}
+.ͼ1q {color: var(--cm-color-symbol);}
+.ͼ1r {color: var(--cm-color-string);}
+.ͼ1s {color: var(--cm-color-command);}
+.ͼ1t {color: var(--cm-color-literal);}
+.ͼ1u {color: var(--cm-color-literal);}
+.ͼ1v {color: var(--cm-color-keyword);}
+.ͼ1w {color: var(--cm-color-keyword);}
+.ͼ1x {color: var(--cm-color-keyword);}
+.ͼ1y {color: var(--cm-color-keyword);}
+.ͼ1z {color: var(--cm-color-bracket);}
+.ͼ14 {color: var(--cm-color-editor-text); filter: contrast(0.5);}
+.ͼ15 {color: var(--cm-color-comment); font-style: italic; filter: none;}
+.ͼ16 {color: var(--cm-color-variable); font-weight: 700;}
+.ͼ17 {color: var(--cm-color-symbol); font-weight: 700;}
+.ͼ18 {color: var(--cm-color-macro); font-weight: 700;}
+.ͼ19 {filter: var(--cm-filter-type); font-weight: lighter;}
+.ͼ1a {color: var(--cm-color-symbol);}
+.ͼ1b {color: var(--cm-color-string);}
+.ͼ1c {color: var(--cm-color-command);}
+.ͼ1d {color: var(--cm-color-literal);}
+.ͼ1e {color: var(--cm-color-literal);}
+.ͼ1f {color: var(--cm-color-keyword);}
+.ͼ1g {color: var(--cm-color-keyword);}
+.ͼ1h {color: var(--cm-color-keyword);}
+.ͼ1i {color: var(--cm-color-keyword);}
+.ͼ1j {color: var(--cm-color-bracket);}
+.ͼ2i {color: var(--cm-color-md);}
+.ͼ2j {color: var(--cm-color-comment); font-style: italic;}
+.ͼ2k {color: var(--cm-color-md);}
+.ͼ2l {color: var(--cm-color-md); font-weight: 700;}
+.ͼ2m {color: var(--cm-color-md);}
+.ͼ2n {font-style: italic;}
+.ͼ2o {font-weight: bolder;}
+.ͼ2p {text-decoration: underline;}
+.ͼ2q {color: var(--cm-color-md); text-decoration: none;}
+.ͼ2r {color: var(--cm-color-md-accent);}
+.ͼ2s {color: var(--cm-color-md-accent) !important; opacity: 0.5;}
+.ͼ2a {color: var(--cm-color-html);}
+.ͼ2b {color: var(--cm-color-comment); font-style: italic;}
+.ͼ2c {color: var(--cm-color-html); font-weight: 400;}
+.ͼ2d {color: var(--cm-color-html-accent); font-weight: 600;}
+.ͼ2e {color: var(--cm-color-html-accent);}
+.ͼ2f {color: var(--cm-color-html-accent); font-weight: 600;}
+.ͼ2g {color: var(--cm-color-html-accent);}
+.ͼ2h {color: var(--cm-color-html-accent); font-weight: 600; opacity: 0.7;}
+.ͼo {color: var(--cm-color-editor-text);}
+.ͼp {color: var(--cm-color-comment); font-style: italic; filter: none;}
+.ͼq {color: var(--cm-color-variable); font-weight: 700;}
+.ͼr {color: var(--cm-color-symbol); font-weight: 700;}
+.ͼs {color: var(--cm-color-macro); font-weight: 700;}
+.ͼt {filter: var(--cm-filter-type); font-weight: lighter;}
+.ͼu {color: var(--cm-color-symbol);}
+.ͼv {color: var(--cm-color-string);}
+.ͼw {color: var(--cm-color-command);}
+.ͼx {color: var(--cm-color-literal);}
+.ͼy {color: var(--cm-color-literal);}
+.ͼz {color: var(--cm-color-keyword);}
+.ͼ10 {color: var(--cm-color-keyword);}
+.ͼ11 {color: var(--cm-color-keyword);}
+.ͼ12 {color: var(--cm-color-keyword);}
+.ͼ13 {color: var(--cm-color-bracket);}
+
+.ͼ4 .cm-line ::selection, .ͼ4 .cm-line::selection {background-color: transparent !important;}
+.ͼ4 .cm-line {caret-color: transparent !important;}
+.ͼ4 .cm-content :focus::selection, .ͼ4 .cm-content :focus ::selection {background-color: Highlight !important;}
+.ͼ4 .cm-content :focus {caret-color: initial !important;}
+.ͼ4 .cm-content {caret-color: transparent !important;}
+</style><meta name="viewport" content="width=device-width">
+<meta name="pluto-insertion-spot-meta">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="white"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2a2928"><meta name="color-scheme" content="light dark"><link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/fonsp/Pluto.jl@0.20.16/frontend-dist/favicon-16x16.267aebbe.png"><link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jsdelivr.net/gh/fonsp/Pluto.jl@0.20.16/frontend-dist/favicon-32x32.1b9d3e70.png"><link rel="icon" type="image/png" sizes="96x96" href="https://cdn.jsdelivr.net/gh/fonsp/Pluto.jl@0.20.16/frontend-dist/favicon-96x96.26e08763.png"><link rel="pluto-external-source" id="pluto-logo-big" href="./notebook_files/logo.49a14041.svg"><link rel="pluto-external-source" id="pluto-logo-small" href="./notebook_files/favicon_unsaturated.c11d4d33.svg"><link rel="stylesheet" href="./notebook_files/editor.66c4449d.css"><link rel="stylesheet" href="./notebook_files/editor.69b60e77.css"><script type="module" src="./notebook_files/index.9d555a34.js"></script><script type="module" src="./notebook_files/editor.runtime.7b81d90d.js"></script><script defer="">console.log("Pluto.jl, by Fons van der Plas (https://github.com/fonsp), Mikołaj Bochenski (https://github.com/malyvsen), Michiel Dral (https://github.com/dralletje) and friends \uD83C\uDF08");</script><script src="./notebook_files/editor.21e3b1fd.js" defer=""></script><link rel="pluto-external-source" id="vmsg-wasm" href="https://cdn.jsdelivr.net/gh/fonsp/Pluto.jl@0.20.16/frontend-dist/vmsg.56bb9389.wasm"><link rel="pluto-external-source" id="arrow_up_circle_icon" href="https://cdn.jsdelivr.net/gh/fonsp/Pluto.jl@0.20.16/frontend-dist/arrow-up-circle-outline.3f146ffe.svg"><link rel="pluto-external-source" id="document_text_icon" href="https://cdn.jsdelivr.net/gh/fonsp/Pluto.jl@0.20.16/frontend-dist/document-text-outline.8d1e2333.svg"><link rel="pluto-external-source" id="help_circle_icon" href="./notebook_files/help-circle-outline.a023036a.svg"><link rel="pluto-external-source" id="open_icon" href="https://cdn.jsdelivr.net/gh/fonsp/Pluto.jl@0.20.16/frontend-dist/open-outline.87533923.svg"><script id="iframe-resizer-content-window-script" src="./notebook_files/editor.69996afe.js" crossorigin="" defer=""></script><link rel="stylesheet" href="./notebook_files/editor.a19283c8.css" type="text/css"><script data-pluto-file="launch-parameters">
+window.pluto_notebook_id = undefined;
+window.pluto_isolated_cell_ids = undefined;
+window.pluto_notebookfile = "data:text/julia;charset=utf-8;base64,IyMjIEEgUGx1dG8uamwgbm90ZWJvb2sgIyMjCiMgdjAuMjAuMTYKCnVzaW5nIE1hcmtkb3duCnVzaW5nIEludGVyYWN0aXZlVXRpbHMKCiMg4pWU4pWQ4pWhIGM0Nzc5MzcyLTdjODEtMTFmMC0wNDNhLTg5NzA2NGQwZWVjMQpwcmludGxuKCJIZWxsbywgV29ybGQhIikKCiMg4pWU4pWQ4pWhIDAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMQpQTFVUT19QUk9KRUNUX1RPTUxfQ09OVEVOVFMgPSAiIiIKW2RlcHNdCiIiIgoKIyDilZTilZDilaEgMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAyClBMVVRPX01BTklGRVNUX1RPTUxfQ09OVEVOVFMgPSAiIiIKIyBUaGlzIGZpbGUgaXMgbWFjaGluZS1nZW5lcmF0ZWQgLSBlZGl0aW5nIGl0IGRpcmVjdGx5IGlzIG5vdCBhZHZpc2VkCgpqdWxpYV92ZXJzaW9uID0gIjEuMTAuMTAiCm1hbmlmZXN0X2Zvcm1hdCA9ICIyLjAiCnByb2plY3RfaGFzaCA9ICJkYTM5YTNlZTVlNmI0YjBkMzI1NWJmZWY5NTYwMTg5MGFmZDgwNzA5IgoKW2RlcHNdCiIiIgoKIyDilZTilZDilaEgQ2VsbCBvcmRlcjoKIyDilaDilZBjNDc3OTM3Mi03YzgxLTExZjAtMDQzYS04OTcwNjRkMGVlYzEKIyDilZ/ilIAwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDEKIyDilZ/ilIAwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDIK";
+window.pluto_disable_ui = true;
+window.pluto_slider_server_url = undefined;
+window.pluto_binder_url = "https://mybinder.org/v2/gh/fonsp/pluto-on-binder/v0.20.16";
+window.pluto_statefile = "data:;base64,3gASpWJvbmRzgKxjZWxsX3Jlc3VsdHOB2SRjNDc3OTM3Mi03YzgxLTExZjAtMDQzYS04OTcwNjRkMGVlYzGKpnF1ZXVlZMKkbG9nc5GIpGxpbmX/o21zZ5KuSGVsbG8sIFdvcmxkIQqqdGV4dC9wbGFpbqdjZWxsX2lk2SRjNDc3OTM3Mi03YzgxLTExZjAtMDQzYS04OTcwNjRkMGVlYzGma3dhcmdzkKJpZLRQbHV0b1J1bm5lcl9kMWFjYjgxZaRmaWxl2VAvaG9tZS9kbWNhYmUvLmp1bGlhL3BhY2thZ2VzL1BsdXRvLzByN1RQL3NyYy9ydW5uZXIvUGx1dG9SdW5uZXIvc3JjL2lvL3N0ZG91dC5qbKVncm91cKZzdGRvdXSlbGV2ZWyuTG9nTGV2ZWwoLTU1NSmncnVubmluZ8Kmb3V0cHV0hqRib2R5oKRtaW1lqnRleHQvcGxhaW6scm9vdGFzc2lnbmVlwLJsYXN0X3J1bl90aW1lc3RhbXDLQdoo6pPLO+awcGVyc2lzdF9qc19zdGF0ZcK3aGFzX3BsdXRvX2hvb2tfZmVhdHVyZXPCp2NlbGxfaWTZJGM0Nzc5MzcyLTdjODEtMTFmMC0wNDNhLTg5NzA2NGQwZWVjMblkZXBlbmRzX29uX2Rpc2FibGVkX2NlbGxzwqdydW50aW1lzgF0SRq1cHVibGlzaGVkX29iamVjdF9rZXlzkLhkZXBlbmRzX29uX3NraXBwZWRfY2VsbHPCp2Vycm9yZWTCq3N0YXR1c190cmVlhaRuYW1lqG5vdGVib29rqHN1YnRhc2tzhKZzYXZpbmeFpG5hbWWmc2F2aW5nqHN1YnRhc2tzgKtmaW5pc2hlZF9hdMtB2ijql7mRdadzdWNjZXNzw6pzdGFydGVkX2F0y0HaKOqXuY+sqXdvcmtzcGFjZYWkbmFtZal3b3Jrc3BhY2Woc3VidGFza3OCrGluaXRfcHJvY2Vzc4WkbmFtZaxpbml0X3Byb2Nlc3Ooc3VidGFza3OEoTSFpG5hbWWhNKhzdWJ0YXNrc4CrZmluaXNoZWRfYXTLQdoo6nudKdSnc3VjY2Vzc8Oqc3RhcnRlZF9hdMtB2ijqe2bZ9aExhaRuYW1loTGoc3VidGFza3OAq2ZpbmlzaGVkX2F0y0HaKOp7WlIRp3N1Y2Nlc3PDqnN0YXJ0ZWRfYXTLQdoo6ntFVJuhMoWkbmFtZaEyqHN1YnRhc2tzgKtmaW5pc2hlZF9hdMtB2ijqe19uZadzdWNjZXNzw6pzdGFydGVkX2F0y0HaKOp7WlJIoTOFpG5hbWWhM6hzdWJ0YXNrc4CrZmluaXNoZWRfYXTLQdoo6ntm2c+nc3VjY2Vzc8Oqc3RhcnRlZF9hdMtB2ijqe19uh6tmaW5pc2hlZF9hdMtB2ijqe50y8KdzdWNjZXNzw6pzdGFydGVkX2F0y0HaKOp7RVQqrmNyZWF0ZV9wcm9jZXNzhaRuYW1lrmNyZWF0ZV9wcm9jZXNzqHN1YnRhc2tzgtkhTG9hZGluZyBub3RlYm9vayBib290IGVudmlyb25tZW50haRuYW1l2SFMb2FkaW5nIG5vdGVib29rIGJvb3QgZW52aXJvbm1lbnSoc3VidGFza3OAq2ZpbmlzaGVkX2F0y0HaKOp7RVOsp3N1Y2Nlc3PDqnN0YXJ0ZWRfYXTLQdoo6npHwZCwU3RhcnRpbmcgcHJvY2Vzc4WkbmFtZbBTdGFydGluZyBwcm9jZXNzqHN1YnRhc2tzgKtmaW5pc2hlZF9hdMtB2ijqegnswKdzdWNjZXNzw6pzdGFydGVkX2F0y0HaKOp5hKlIq2ZpbmlzaGVkX2F0y0HaKOp7RVOkp3N1Y2Nlc3PDqnN0YXJ0ZWRfYXTLQdoo6nmEqSarZmluaXNoZWRfYXTLQdoo6nudMwWnc3VjY2Vzc8Oqc3RhcnRlZF9hdMtB2ijqeYSovaNwa2eFpG5hbWWjcGtnqHN1YnRhc2tzgahhbmFseXNpc4WkbmFtZahhbmFseXNpc6hzdWJ0YXNrc4CrZmluaXNoZWRfYXTLQdoo6pNxN72nc3VjY2Vzc8Oqc3RhcnRlZF9hdMtB2ijqk3E136tmaW5pc2hlZF9hdMtB2ijqk3E3wadzdWNjZXNzw6pzdGFydGVkX2F0y0HaKOqTcTW1o3J1boWkbmFtZaNydW6oc3VidGFza3OCsHJlc29sdmVfdG9wb2xvZ3mFpG5hbWWwcmVzb2x2ZV90b3BvbG9neahzdWJ0YXNrc4CrZmluaXNoZWRfYXTLQdoo6pN4Lf2nc3VjY2Vzc8Oqc3RhcnRlZF9hdMtB2ijqk3F5B6hldmFsdWF0ZYWkbmFtZahldmFsdWF0ZahzdWJ0YXNrc4GhMYWkbmFtZaExqHN1YnRhc2tzgKtmaW5pc2hlZF9hdMtB2ijqk8+vLadzdWNjZXNzw6pzdGFydGVkX2F0y0HaKOqTeDyGq2ZpbmlzaGVkX2F0y0HaKOqT2GqYp3N1Y2Nlc3PDqnN0YXJ0ZWRfYXTLQdoo6pN4LgKrZmluaXNoZWRfYXTLQdoo6pPYapCnc3VjY2Vzc8Oqc3RhcnRlZF9hdMtB2ijqk3F4o6tmaW5pc2hlZF9hdMCnc3VjY2Vzc8Cqc3RhcnRlZF9hdMtB2ijqeCZQYbFjZWxsX2RlcGVuZGVuY2llc4HZJGM0Nzc5MzcyLTdjODEtMTFmMC0wNDNhLTg5NzA2NGQwZWVjMYS0cHJlY2VkZW5jZV9oZXVyaXN0aWMJp2NlbGxfaWTZJGM0Nzc5MzcyLTdjODEtMTFmMC0wNDNhLTg5NzA2NGQwZWVjMbRkb3duc3RyZWFtX2NlbGxzX21hcICydXBzdHJlYW1fY2VsbHNfbWFwgadwcmludGxukLRjZWxsX2V4ZWN1dGlvbl9vcmRlcpHZJGM0Nzc5MzcyLTdjODEtMTFmMC0wNDNhLTg5NzA2NGQwZWVjMbRsYXN0X2hvdF9yZWxvYWRfdGltZcsAAAAAAAAAAKlzaG9ydHBhdGirbm90ZWJvb2suamyucHJvY2Vzc19zdGF0dXOlcmVhZHmkcGF0aNlUL2hvbWUvZG1jYWJlL3Byb2plY3RzL3BlcnNvbmFsL2dpdGh1Yi8xOC4wMy1kaWZmZXJlbnRpYWwtZXF1YXRpb25zLW5vdGVzL25vdGVib29rLmpsrXBsdXRvX3ZlcnNpb26odjAuMjAuMTaubGFzdF9zYXZlX3RpbWXLQdoo6pe5j6yqY2VsbF9vcmRlcpHZJGM0Nzc5MzcyLTdjODEtMTFmMC0wNDNhLTg5NzA2NGQwZWVjMbFwdWJsaXNoZWRfb2JqZWN0c4ClbmJwa2eKr2luc3RhbGxfdGltZV9uc87b/CB5rGluc3RhbnRpYXRlZMOyaW5zdGFsbGVkX3ZlcnNpb25zgLB0ZXJtaW5hbF9vdXRwdXRzgapuYnBrZ19zeW5j2gFAChtbMG0bWzFtUmVzb2x2aW5nLi4uG1syMm0KG1s5MG09PT0bWzM5bQobWzMybRtbMW0gIE5vIENoYW5nZXMbWzIybRtbMzltIHRvIGAvdG1wL2psX3g4dEZxYS9Qcm9qZWN0LnRvbWxgChtbMzJtG1sxbSAgTm8gQ2hhbmdlcxtbMjJtG1szOW0gdG8gYC90bXAvamxfeDh0RnFhL01hbmlmZXN0LnRvbWxgCgobWzBtG1sxbUluc3RhbnRpYXRpbmcuLi4bWzIybQobWzkwbT09PRtbMzltCgobWzBtG1sxbVByZWNvbXBpbGluZy4uLhtbMjJtChtbOTBtPT09G1szOW0KG1szMm0bWzFtICBBY3RpdmF0aW5nG1syMm0bWzM5bSBwcm9qZWN0IGF0IGAvdG1wL2psX3g4dEZxYWCnZW5hYmxlZMO3cmVzdGFydF9yZWNvbW1lbmRlZF9tc2fAtHJlc3RhcnRfcmVxdWlyZWRfbXNnwK1idXN5X3BhY2thZ2VzkLZ3YWl0aW5nX2Zvcl9wZXJtaXNzaW9uwtksd2FpdGluZ19mb3JfcGVybWlzc2lvbl9idXRfcHJvYmFibHlfZGlzYWJsZWTCq2NlbGxfaW5wdXRzgdkkYzQ3NzkzNzItN2M4MS0xMWYwLTA0M2EtODk3MDY0ZDBlZWMxhKdjZWxsX2lk2SRjNDc3OTM3Mi03YzgxLTExZjAtMDQzYS04OTcwNjRkMGVlYzGkY29kZbhwcmludGxuKCJIZWxsbywgV29ybGQhIimobWV0YWRhdGGDqXNob3dfbG9nc8OoZGlzYWJsZWTCrnNraXBfYXNfc2NyaXB0wqtjb2RlX2ZvbGRlZMKrbm90ZWJvb2tfaWTZJDI4MjZkODc4LTdjODMtMTFmMC0yODQ4LTAzYmZmNjMzNjFiMKtpbl90ZW1wX2RpcsKobWV0YWRhdGGA";
+window.pluto_preamble_html = undefined;
+window.pluto_recording_url = undefined;
+window.pluto_recording_audio_url = undefined;
+</script>
+
+<meta name="pluto-insertion-spot-parameters">
+<script src="./notebook_files/editor.c982340b.js" type="module" defer=""></script><script src="./notebook_files/index.11569726.js"></script><link rel="pluto-external-source" id="MathJax-script" href="./notebook_files/tex-svg-full.f72d1ae1.js" type="text/javascript">
+<meta name="pluto-insertion-spot-preload">
+<script integrity="" src="./notebook_files/tex-svg-full.f72d1ae1.js"></script><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-SVG-styles">
+mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line], svg[data-table] > g > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame], svg[data-table] > g > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed, svg[data-table] > g > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted, svg[data-table] > g > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > g > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
+  stroke-width: 3;
+}
+</style></head><body class="no-MαθJax"> <div style="min-height:100vh;display:flex"> <pluto-editor class="fullscreen disable_ui static_preview bonds_disabled offer_binder binder">  <header id="pluto-nav" class=""><dialog id="export" inert="" class=""><div id="container"><div class="export_title">export</div><a href="file:///home/dmcabe/Downloads/notebookfile?id=2826d878-7c83-11f0-2848-03bff63361b0" target="_blank" class="export_card"><header role="none"><svg width="48" height="48" viewBox="0 0 48 48" style="height: 0.7em; width: 0.7em; margin-left: 0.3em; margin-right: 0.2em; margin-bottom: -0.1em;"><polygon points="24,0 48,40 0,40" fill="#a270ba" stroke="none"></polygon></svg> Notebook file</header><section>Download a copy of the <b>.jl</b> script.</section></a><a href="file:///home/dmcabe/Downloads/notebookexport?id=2826d878-7c83-11f0-2848-03bff63361b0" target="_blank" class="export_card" download=""><header role="none"><svg width="48" height="48" viewBox="0 0 48 48" style="height: 0.7em; width: 0.7em; margin-left: 0.3em; margin-right: 0.2em; margin-bottom: -0.1em;"><polygon points="0,0 0,40 40,40 40,0" fill="#E86F51" stroke="none"></polygon></svg> Static HTML</header><section>An <b>.html</b> file for your web page, or to share online.</section></a><a href="file:///home/dmcabe/Downloads/notebook.html#" class="export_card"><header role="none"><svg width="48" height="48" viewBox="0 0 48 48" style="height: 0.7em; width: 0.7em; margin-left: 0.3em; margin-right: 0.2em; margin-bottom: -0.1em;"><polygon points="0,0 0,40 40,40 40,0" fill="#619b3d" stroke="none"></polygon></svg>PDF</header><section>A static <b>.pdf</b> file for print or email.</section></a><div class="export_title">record</div><a href="file:///home/dmcabe/Downloads/notebook.html#" class="export_card"><header role="none"><svg width="48" height="48" viewBox="0 0 48 48" style="height: 0.7em; width: 0.7em; margin-left: 0.3em; margin-right: 0.2em;"><circle cx="24" cy="24" r="24" fill="#E86F51"></circle></svg>Record <em>(preview)</em></header><section>Capture the entire notebook, and any changes you make.</section></a></div><div class="export_small_btns"><button title="Edit frontmatter" class="toggle_frontmatter_edit"><span></span></button><button title="Start presentation" class="toggle_presentation"><span></span></button><button title="Close" class="toggle_export"><span></span></button></div></dialog><div id="binder_spinners"><binder-spinner id="ring_1"></binder-spinner><binder-spinner id="ring_2"></binder-spinner><binder-spinner id="ring_3"></binder-spinner></div><nav id="at_the_top"><a href="file:///home/dmcabe/Downloads/"><h1><img id="logo-big" src="./notebook_files/logo.49a14041.svg" alt="Pluto.jl"><img id="logo-small" src="./notebook_files/favicon_unsaturated.c11d4d33.svg"></h1></a><div class="flex_grow_1"></div><pluto-filepicker><a href="file:///home/dmcabe/Downloads/notebookfile?id=2826d878-7c83-11f0-2848-03bff63361b0" target="_blank">Save notebook...</a></pluto-filepicker><div class="flex_grow_2"></div><div id="process_status"></div><button class="toggle_export" title="Export..."><span></span></button></nav></header><div class="outline-frame safe-preview"></div><div class="outline-frame recording"></div><div class="edit_or_run"><button class="edit_or_run_button"><span class="yayicon"></span><span class="text"><strong>Edit</strong> or <strong>run</strong> this notebook</span></button><dialog class="binder_help_text"><span class="close"></span><p style="text-align: center;">To be able to edit code and run cells, you need to run the notebook yourself.<b>Where would you like to run the notebook?</b></p> <div class="expected_runtime_box">This notebook takes about &lt;span&gt;20 seconds&lt;/span&gt; to run.</div><h2 style="margin-top: 3em;">In the cloud <em>(experimental)</em></h2><div style="padding: 0px 2rem;"><button><img src="./notebook_files/logo.svg" height="30" alt="binder"></button></div><p style="opacity: 0.5; margin: 20px 10px;"><a target="_blank" href="https://mybinder.org/">Binder</a> is a free, open source service that runs scientific notebooks in the cloud! It will take a while, usually 2-7 minutes to get a session.</p><h2 style="margin-top: 4em;">On your computer</h2><p style="opacity: 0.5;">(Recommended if you want to store your changes.)</p><ol style="padding: 0px 2rem;"><li><div><div class="command">Download the notebook:</div><div class="download_div"><a href="data:text/julia;charset=utf-8;base64,IyMjIEEgUGx1dG8uamwgbm90ZWJvb2sgIyMjCiMgdjAuMjAuMTYKCnVzaW5nIE1hcmtkb3duCnVzaW5nIEludGVyYWN0aXZlVXRpbHMKCiMg4pWU4pWQ4pWhIGM0Nzc5MzcyLTdjODEtMTFmMC0wNDNhLTg5NzA2NGQwZWVjMQpwcmludGxuKCJIZWxsbywgV29ybGQhIikKCiMg4pWU4pWQ4pWhIDAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMQpQTFVUT19QUk9KRUNUX1RPTUxfQ09OVEVOVFMgPSAiIiIKW2RlcHNdCiIiIgoKIyDilZTilZDilaEgMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAyClBMVVRPX01BTklGRVNUX1RPTUxfQ09OVEVOVFMgPSAiIiIKIyBUaGlzIGZpbGUgaXMgbWFjaGluZS1nZW5lcmF0ZWQgLSBlZGl0aW5nIGl0IGRpcmVjdGx5IGlzIG5vdCBhZHZpc2VkCgpqdWxpYV92ZXJzaW9uID0gIjEuMTAuMTAiCm1hbmlmZXN0X2Zvcm1hdCA9ICIyLjAiCnByb2plY3RfaGFzaCA9ICJkYTM5YTNlZTVlNmI0YjBkMzI1NWJmZWY5NTYwMTg5MGFmZDgwNzA5IgoKW2RlcHNdCiIiIgoKIyDilZTilZDilaEgQ2VsbCBvcmRlcjoKIyDilaDilZBjNDc3OTM3Mi03YzgxLTExZjAtMDQzYS04OTcwNjRkMGVlYzEKIyDilZ/ilIAwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDEKIyDilZ/ilIAwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDIK" target="_blank" download="notebook.jl">notebook.jl</a><span class="download_icon"></span></div></div></li><li><div class="command">Run Pluto</div><p>Also see: <a target="_blank" href="https://plutojl.org/#install">How to install Julia and Pluto</a></p><img src="./notebook_files/107865594-60864b00-6e68-11eb-9625-2d11fd608e7b.png"></li><li><div class="command">Open the notebook file</div><p>Type the saved filename in the <em>open</em> box.</p><img src="./notebook_files/119374043-65556900-bcb9-11eb-9026-149c1ba2d05b.png"></li></ol></dialog></div><dialog class="pluto-frontmatter"><h1>Frontmatter</h1><p>If you are publishing this notebook on the web, you can set the parameters below to provide HTML metadata. This is useful for search engines and social media.</p><div class="card-preview" aria-hidden="true"><h2>Preview</h2><featured-card style="--card-color-hue: 0deg;"><a class="banner" href="file:///home/dmcabe/Downloads/notebook.html#"><img src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3C/svg%3E" loading="lazy"></a><h3><a href="file:///home/dmcabe/Downloads/notebook.html#"></a></h3><p></p></featured-card></div><div class="fm-table"><label for="fm-title">title</label><input type="text" id="fm-title"><button class="deletefield" title="Delete field" aria-label="Delete field">✕</button><label for="fm-description">description</label><input type="text" id="fm-description"><button class="deletefield" title="Delete field" aria-label="Delete field">✕</button><label for="fm-date">date</label><input type="date" id="fm-date"><button class="deletefield" title="Delete field" aria-label="Delete field">✕</button><label for="fm-image">image</label><input type="url" id="fm-image" placeholder="https://..."><button class="deletefield" title="Delete field" aria-label="Delete field">✕</button><label for="fm-tags">tags</label><rbl-tag-input id="fm-tags"><template shadowrootmode="open">
+            <style>
+                .rebel-tag-input {
+                    font-family: sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+                    font-size: 0.78em;
+                    max-width: 100%;
+                    display: flex;
+                    align-content: flex-start;
+                    flex-wrap: wrap;
+                    border-radius: 2px;
+                    padding: .1em;
+                    align-items: baseline;
+                    
+                    --bg: white;
+                    --tag-bg: #e6e6e6;
+                    --border: #CCC;
+                    
+                    background: var(--bg);
+                    border: solid 1px var(--border);
+                    
+                }
+                @media (prefers-color-scheme: dark) {
+                    .rebel-tag-input {
+                        --bg: #3b3b3b;
+                        --border: #808080;
+                        --tag-bg: #666;
+                    }
+                }
+                #tag-input {
+                    flex-grow: 1;
+                    display: inline-block;
+                    order: 200;
+                    border: none;
+                    margin: 0;
+                    font-size: inherit;
+                    font-family: inherit;
+                    background: transparent;
+                }
+                #tag-input:focus {
+                    outline: none;
+                }
+                .rebel-tag-input div.tag {
+                    display: inline-flex;
+                    /* flex-grow: 0; */
+                    margin: 0.2em 0.2em;
+                    padding: 0.2em;
+                    padding-left: 0.4em;
+                    gap: 0.3em;
+                    line-height: 1;
+                    background-color: var(--tag-bg);
+                    order: 100;
+                    border-radius: 1000px;
+                    position: relative;
+                    overflow: hidden;
+                    align-items: center;
+                }
+                .rebel-tag-input div.tag.duplicate {
+                    background-color: rgba(255, 64, 27, 0.71);
+                    transition: all 0.3s linear;
+                }
+                .rebel-tag-input div.tag:last-child {
+                    margin-right: 5px;
+                }
+                .rebel-tag-input div.tag .remove {
+                    background-color: rgb(199 199 199 / 71%);
+                    color: #7e7e7e;
+                    font-weight: 600;
+                    font-size: 0.8em;
+                    padding: 0.1em;
+                    cursor: pointer;
+                    border-radius: 100px;
+                    display: inline-flex;
+                    height: 1em;
+                    width: 1em;
+                    line-height: 1;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .rebel-tag-input div.tag:hover .remove {
+                }
+            </style>
+            <div class="rebel-tag-input">
+                <input type="text" id="tag-input" placeholder="Enter tag...">
+                <!-- Start Tag Elements -->
+            </div>
+        </template></rbl-tag-input><button class="deletefield" title="Delete field" aria-label="Delete field">✕</button><button class="addentry">Add field +</button><fieldset class="fm-table"><legend>Author 1</legend><label for="fm-author[0].name">name</label><input type="text" id="fm-author[0].name"><button class="deletefield" title="Delete field" aria-label="Delete field">✕</button><label for="fm-author[0].url">url</label><input type="url" id="fm-author[0].url" placeholder="https://..."><button class="deletefield" title="Delete field" aria-label="Delete field">✕</button><button class="addentry">Add field +</button></fieldset><button class="addentry">Add author +</button></div><div class="final"><button>Cancel</button><button>Save</button></div></dialog><main><preamble></preamble><pluto-notebook id="2826d878-7c83-11f0-2848-03bff63361b0"><pluto-cell class="shrunk show_input " id="c4779372-7c81-11f0-043a-897064d0eec1"><button class="add_cell before" title="Add cell (Ctrl + Enter)"><span></span></button><pluto-shoulder draggable="true" title="Drag to move cell"><button class="foldcode" title="Show/hide code"><span></span></button></pluto-shoulder><pluto-trafficlight></pluto-trafficlight><pluto-output class="scroll_y rich_output " translate="yes" mime="text/plain" aria-live="off" aria-atomic="true" aria-relevant="all" aria-label="Result of unlabeled cell:"><assignee aria-hidden="true" translate="no"></assignee><div></div></pluto-output><pluto-input class="CodeMirror" translate="no"><button class="input_context_menu " title="Actions"><span class="icon"></span></button><div class="input_context_menu "></div><div class="preview_hidden_code_info">👀 Reading hidden code</div><div class="cm-editor ͼ1 ͼ3 ͼ4 ͼ2t"><div class="cm-announced" aria-live="polite"></div><div tabindex="-1" class="cm-scroller"><div class="cm-gutters" aria-hidden="true" style="min-height: 21.9062px; position: sticky;"><div class="cm-gutter cm-lineNumbers"><div class="cm-gutterElement" style="height: 0px; visibility: hidden; pointer-events: none;">9</div><div class="cm-gutterElement" style="height: 17.9062px; margin-top: 2px;">1</div></div></div><div data-currently-live="true" spellcheck="false" autocorrect="off" autocapitalize="off" writingsuggestions="false" translate="no" contenteditable="true" style="tab-size: 4;" class="cm-content cm-lineWrapping" role="textbox" aria-multiline="true" aria-readonly="true" aria-autocomplete="list"><div class="cm-line"><span class="ͼo ͼq">println</span><span class="ͼo ͼ13">(</span><span class="ͼo ͼv">"Hello, World!"</span><span class="ͼo ͼ13">)</span></div></div><div class="cm-layer cm-layer-above cm-cursorLayer" aria-hidden="true" style="z-index: 150; animation-duration: 1200ms; animation-name: cm-blink;"><div class="cm-cursor cm-cursor-primary" style="left: 38px; top: 3px; height: 15px;"></div></div><div class="cm-layer cm-selectionLayer" aria-hidden="true" style="z-index: -2;"></div></div></div></pluto-input><pluto-logs-container><pluto-logs><pluto-log-dot-positioner class="Stdout "><pluto-log-icon></pluto-log-icon><pluto-log-dot class="Stdout"><a class="stdout-info" target="_blank" title="Click for more info" href="file:///home/dmcabe/Downloads/notebook.html#"><img alt="❔" src="./notebook_files/help-circle-outline.a023036a.svg"></a> <pre>Hello, World!
+</pre></pluto-log-dot></pluto-log-dot-positioner> </pluto-logs></pluto-logs-container><pluto-runarea class="run"><button class="runcell" title="Run cell (Shift + Enter)"><span></span></button><span class="runtime">24.4&nbsp;ms</span></pluto-runarea><button class="add_cell after" title="Add cell (Ctrl + Enter)"><span></span></button></pluto-cell></pluto-notebook><dropruler></dropruler><div class="non-cell-output"> </div></main><aside id="helpbox-wrapper"><pluto-helpbox class="helpbox-true hidden "><header translate="no"><button title="Live Docs: Search for Julia documentation, and get live documentation of everything you type." class="helpbox-docs helpbox-tab-key "><span class="tabicon"></span><span class="tabname">Live docs</span></button><button title="Process status" class="something_is_happening busy helpbox-process helpbox-tab-key " id="process-status-tab-button"><span class="tabicon"></span><span class="tabname">Status <span class="subprogress-counter">(16/21)</span></span></button></header></pluto-helpbox></aside><pluto-popup class="" tabindex="0" style=""></pluto-popup><div tabindex="0"></div><nav id="undo_delete" inert="" class="hidden ">0 cells deleted (<a href="file:///home/dmcabe/Downloads/notebook.html#"><strong>UNDO</strong></a>)</nav><nav id="slide_controls" inert=""><button class="changeslide prev" title="Previous slide"><span></span></button><button class="changeslide next" title="Next slide"><span></span></button></nav><footer><div id="info"><div class="language-picker"><select id="language-select" aria-label="Change the language of the interface" title="Change the language of the interface"><option value="en">English</option><option value="nl">Nederlands (64%)</option><option value="el">Ελληνικά (97%)</option><option value="contribute">Help translate!</option></select></div><a href="https://github.com/fonsp/Pluto.jl/wiki" target="_blank">FAQ</a><span style="flex: 1 1 0%; min-width: 5ch;"></span><form id="feedback" action="file:///home/dmcabe/Downloads/notebook.html#" method="post"><label for="opinion">🙋 How can we make <a href="https://plutojl.org/" target="_blank">Pluto.jl</a> better?</label><input type="text" name="opinion" id="opinion" autocomplete="off" placeholder="Instant feedback..."><button>Send</button></form></div></footer></pluto-editor> </div> <svg id="MJX-SVG-global-cache" style="display: none;"><defs></defs></svg></body></html>

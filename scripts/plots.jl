@@ -1,0 +1,3 @@
+#>julia --project=.
+#>]
+#>add Plots
